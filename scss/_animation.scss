@@ -1,0 +1,30 @@
+.animation{
+  -webkit-animation-name: visible;
+  -webkit-animation-duration: 3s;
+  animation-name: visible;
+  animation-duration: 3s;
+}
+
+.abstract{
+  -webkit-transform: $rotation;
+  transform: $rotation;
+  -webkit-transition: transform 2s;
+  transition: transform 2s;
+}
+.abstract:hover{
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+@-webkit-keyframes visible {
+  from{background-color: $achtergrondkleur}
+  to{background-color: transparent;}
+  from{color: $tekstkleur;}
+  to{color: transparent;}
+}
+@keyframes visible {
+  from {background-color: $achtergrondkleur}
+  to {background-color: transparent;}
+  from {color: $tekstkleur;}
+  to {color: transparent;}
+}
