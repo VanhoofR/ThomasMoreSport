@@ -1,0 +1,4 @@
+@mixin kleuren($achter, $voor){
+  background-color: $achter;
+  color: $voor;
+}

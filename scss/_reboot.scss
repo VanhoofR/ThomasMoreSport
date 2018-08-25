@@ -1,0 +1,8 @@
+body{
+  @include kleuren($achtergrondkleur, $tekstkleur);
+  font-family: $lettertype;
+}
+h1, h2{
+  font-family: $alternatief;
+  @include kleuren($achtergrondkleur, $tekstkleur);
+}
