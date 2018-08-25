@@ -5,4 +5,9 @@ body{
 h1, h2{
   font-family: $alternatief;
   @include kleuren($achtergrondkleur, $tekstkleur);
+  margin-bottom: $afstand*3;
+  margin-top: $afstand;
+}
+img{
+  width: 100%;
 }
