@@ -1,0 +1,4 @@
+Options All -Indexes
+
+ErrorDocument 403 /403.html
+ErrorDocument 303 /404.html
