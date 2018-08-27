@@ -16,6 +16,8 @@
   transform: rotate(0deg);
 }
 
+/* Wat doet webkit hier??? */
+
 @-webkit-keyframes visible {
   from{background-color: $achtergrondkleur}
   to{background-color: transparent;}
